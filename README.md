@@ -17,7 +17,7 @@ interface AxiosProxyConfig {
     username: string
     password: string
   }
-  protocol?: strings
+  protocol?: string
 }
 ```
 

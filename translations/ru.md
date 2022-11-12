@@ -1,13 +1,13 @@
 # proxy-string-parser
 
-Converting strings of the following formats:
+Парсинг строк следующих форматов:
 
 - protocol://username:password@host:port
 - protocol://host:port
 - username:password@host:port
 - host:port
 
-To the AxiosProxyConfig object:
+В объект AxiosProxyConfig:
 
 ```typescript
 interface AxiosProxyConfig {
@@ -21,13 +21,13 @@ interface AxiosProxyConfig {
 }
 ```
 
-## Install
+## Установка
 
 ```bash
 npm install proxy-string-parser
 ```
 
-## Usage
+## Использование
 
 ```javascript
 import proxyParser from 'proxy-string-parser'

@@ -1,6 +1,6 @@
 # proxy-string-parser
 
-Converting strings of the following formats:
+Parsing strings of the following formats:
 
 - protocol://username:password@host:port
 - protocol://host:port
@@ -35,3 +35,31 @@ import proxyParser from 'proxy-string-parser'
 const proxy = proxyParser('protocol://username:password@host:80')
 console.log(proxy)
 ```
+
+# API
+
+## Table of contents
+
+### Functions
+
+- [default](#default)
+
+## Functions
+
+### default
+
+▸ **default**(`proxy`): `AxiosProxyConfig`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `proxy` | `string` |
+
+#### Returns
+
+`AxiosProxyConfig`
+
+#### Defined in
+
+[index.ts:3](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/ad138bd/src/index.ts#L3)

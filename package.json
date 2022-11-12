@@ -8,7 +8,6 @@
     "parser",
     "axios",
     "format",
-    "converting",
     "host",
     "port",
     "username",
@@ -26,6 +25,9 @@
   },
   "scripts": {
     "build": "tsc",
+    "docs": "yarn run docs:typedoc && yarn run docs:concat",
+    "docs:typedoc": "typedoc --plugin typedoc-plugin-markdown --name API --hideBreadcrumbs true src/index.ts",
+    "docs:concat": "concat-md --hide-anchor-links docs > README.md",
     "test": "yarn run test:typescript && yarn run test:eslint && yarn run test:ncu",
     "test:typescript": "tsc --noEmit",
     "test:eslint": "eslint .",
@@ -37,12 +39,15 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
+    "concat-md": "^0.5.0",
     "eslint": "^8.27.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
     "npm-check-updates": "^16.3.22",
+    "typedoc": "^0.23.20",
+    "typedoc-plugin-markdown": "^3.13.6",
     "typescript": "^4.8.4"
   }
 }

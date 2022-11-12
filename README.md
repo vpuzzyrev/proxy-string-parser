@@ -1,4 +1,4 @@
-# Proxy Parser
+# proxy-string-parser
 
 Converting strings of the following formats:
 

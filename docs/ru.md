@@ -1,4 +1,4 @@
-# Proxy Parser
+# proxy-string-parser
 
 Преобразование строк следующих форматов:
 

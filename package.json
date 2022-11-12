@@ -4,9 +4,9 @@
   "description": "Parsing proxy string",
   "keywords": [
     "proxy",
+    "string",
     "parser",
     "axios",
-    "string",
     "format",
     "converting",
     "host",

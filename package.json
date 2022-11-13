@@ -1,6 +1,6 @@
 {
   "name": "proxy-string-parser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parsing proxy string",
   "keywords": [
     "proxy",

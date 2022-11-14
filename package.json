@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc",
     "docs": "yarn run docs:typedoc && yarn run docs:concat",
-    "docs:typedoc": "typedoc --plugin typedoc-plugin-markdown --name API --hideBreadcrumbs src/index.ts",
+    "docs:typedoc": "typedoc --plugin typedoc-plugin-markdown --hideBreadcrumbs --name API src/index.ts",
     "docs:concat": "concat-md --hide-anchor-links docs > README.md",
     "test": "yarn run test:typescript && yarn run test:eslint && yarn run test:ncu",
     "test:typescript": "tsc --noEmit",

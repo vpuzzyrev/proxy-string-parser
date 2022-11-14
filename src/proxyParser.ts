@@ -1,6 +1,6 @@
-import { AxiosProxyConfig } from 'axios'
+import { Proxy } from './types/Proxy'
 
-const proxyParser = (proxy: string): AxiosProxyConfig => {
+const proxyParser = (proxy: string): Proxy => {
   const protocolSplit = proxy.split('://')
   const protocol = protocolSplit.length === 1 ? null : protocolSplit[0]
   const rest = protocolSplit.length === 1 ? protocolSplit[0] : protocolSplit[1]
@@ -11,7 +11,7 @@ const proxyParser = (proxy: string): AxiosProxyConfig => {
     const host = authSplit[0].split(':')[0]
     const port = Number(authSplit[0].split(':')[1])
 
-    const proxyConfig: AxiosProxyConfig = {
+    const proxyConfig: Proxy = {
       host,
       port
     }
@@ -27,7 +27,7 @@ const proxyParser = (proxy: string): AxiosProxyConfig => {
   const port = Number(authSplit[1].split(':')[1])
   const [username, password] = authSplit[0].split(':')
 
-  const proxyConfig: AxiosProxyConfig = {
+  const proxyConfig: Proxy = {
     host,
     port,
     auth: {

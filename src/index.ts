@@ -1,4 +1,4 @@
 import proxyParser from './proxyParser'
 
-export { AxiosProxyConfig } from 'axios'
+export { Proxy } from './types/Proxy'
 export default proxyParser

@@ -7,10 +7,10 @@
 - username:password@host:port
 - host:port
 
-В объект AxiosProxyConfig:
+В объект Proxy:
 
 ```typescript
-interface AxiosProxyConfig {
+interface Proxy {
   host: string
   port: number
   auth?: {

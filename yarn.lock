@@ -2001,9 +2001,9 @@ is-word-character@^1.0.0:
   integrity sha512-5SMO8RVennx3nZrqtKwCGyyetPE9VDba5ugvKLaD4KopPG5kR4mQ7tNt/r7feL5yt5h3lpuBbIUmCOG2eSzXHA==
 
 is-yarn-global@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/is-yarn-global/-/is-yarn-global-0.4.0.tgz#714d94453327db9ea98fbf1a0c5f2b88f59ddd5c"
-  integrity sha512-HneQBCrXGBy15QnaDfcn6OLoU8AQPAa0Qn0IeJR/QCo4E8dNZaGGwxpCwWyEBQC5QvFonP8d6t60iGpAHVAfNA==
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/is-yarn-global/-/is-yarn-global-0.4.1.tgz#b312d902b313f81e4eaf98b6361ba2b45cd694bb"
+  integrity sha512-/kppl+R+LO5VmhYSEWARUFjodS25D68gvj8W7z0I7OWhUla5xWu8KL6CtB2V0R6yqhnRgbcaREMr4EEM6htLPQ==
 
 isarray@~1.0.0:
   version "1.0.0"
@@ -2520,10 +2520,10 @@ npm-bundled@^3.0.0:
   dependencies:
     npm-normalize-package-bin "^3.0.0"
 
-npm-check-updates@^16.3.25:
-  version "16.3.25"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.3.25.tgz#58217d203040191c752cee2a35428aeb54f97a28"
-  integrity sha512-zrjx6P7LGHYS5e3TNuSqkWQc9m1KLjJIxFERGANN+xEY826NQYG08RwucUD9nRxIlRE9PsGCcMsJJTYJu1DHbA==
+npm-check-updates@^16.4.0:
+  version "16.4.0"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.4.0.tgz#d11a1811d7a6d3be5ca0ac9521093d525777b564"
+  integrity sha512-+oa0E40MvB5l1NbRFqutI8WR4hgSnxzEg0/SFCjS1Hl5L7c1HJo6Rs65yhZMUbet/F0ZpJBx2Uipo+BJ1xD5Zw==
   dependencies:
     chalk "^5.1.2"
     cli-table "^0.3.11"
@@ -3528,10 +3528,10 @@ typedoc-plugin-markdown@^3.13.6:
   dependencies:
     handlebars "^4.7.7"
 
-typedoc@^0.23.20:
-  version "0.23.20"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.20.tgz#c6fa221762322837161932990b79416afcdc895c"
-  integrity sha512-nfb4Mx05ZZZXux3zPcLuc7+3TVePDW3jTdEBqXdQzJUyEILxoprgPIiTChbvci9crkqNJG9YESmfCptuh9Gn3g==
+typedoc@^0.23.21:
+  version "0.23.21"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.21.tgz#2a6b0e155f91ffa9689086706ad7e3e4bc11d241"
+  integrity sha512-VNE9Jv7BgclvyH9moi2mluneSviD43dCE9pY8RWkO88/DrEgJZk9KpUk7WO468c9WWs/+aG6dOnoH7ccjnErhg==
   dependencies:
     lunr "^2.3.9"
     marked "^4.0.19"

@@ -2,10 +2,12 @@
 
 Парсинг строк следующих форматов:
 
-- protocol://username:password@host:port
-- protocol://host:port
-- username:password@host:port
-- host:port
+```text
+protocol://username:password@host:port
+protocol://host:port
+username:password@host:port
+host:port
+```
 
 В объект Proxy:
 

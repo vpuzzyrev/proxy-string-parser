@@ -58,8 +58,8 @@ console.log(proxy)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+|:--------|:---------|
 | `proxy` | `string` |
 
 #### Returns
@@ -68,7 +68,7 @@ console.log(proxy)
 
 #### Defined in
 
-[proxyParser.ts:3](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/25ff6c8/src/proxyParser.ts#L3)
+[proxyParser.ts:3](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/8a6dba5/src/proxyParser.ts#L3)
 
 # Interface: Proxy
 
@@ -89,14 +89,14 @@ console.log(proxy)
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type     |
+|:-----------|:---------|
 | `password` | `string` |
 | `username` | `string` |
 
 #### Defined in
 
-[types/Proxy.ts:4](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/25ff6c8/src/types/Proxy.ts#L4)
+[types/Proxy.ts:4](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/8a6dba5/src/types/Proxy.ts#L4)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[types/Proxy.ts:2](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/25ff6c8/src/types/Proxy.ts#L2)
+[types/Proxy.ts:2](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/8a6dba5/src/types/Proxy.ts#L2)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-[types/Proxy.ts:3](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/25ff6c8/src/types/Proxy.ts#L3)
+[types/Proxy.ts:3](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/8a6dba5/src/types/Proxy.ts#L3)
 
 ___
 
@@ -126,4 +126,4 @@ ___
 
 #### Defined in
 
-[types/Proxy.ts:8](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/25ff6c8/src/types/Proxy.ts#L8)
+[types/Proxy.ts:8](https://github.com/vladislav-puzyrev/proxy-string-parser/blob/8a6dba5/src/types/Proxy.ts#L8)

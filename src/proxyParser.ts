@@ -1,4 +1,4 @@
-import { Proxy } from './types/Proxy'
+import { Proxy } from './types/Proxy.js'
 
 const proxyParser = (proxy: string): Proxy => {
   const protocolSplit = proxy.split('://')

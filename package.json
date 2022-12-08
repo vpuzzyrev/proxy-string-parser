@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/vladislav-puzyrev/proxy-string-parser.git"
   },
+  "type": "module",
   "scripts": {
     "build": "yarn run clean:build && tsc",
     "docs": "yarn run clean:docs && yarn run docs:typedoc && yarn run docs:concat",

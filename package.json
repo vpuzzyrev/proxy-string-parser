@@ -19,16 +19,18 @@
   },
   "scripts": {
     "build": "yarn run clean:build && tsc --project tsconfig.production.json",
+    "coverage": "yarn run clean:coverage && node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --no-cache --coverage",
     "docs": "yarn run clean:docs && yarn run docs:typedoc && yarn run docs:concat",
     "docs:typedoc": "typedoc --plugin typedoc-plugin-markdown --hideBreadcrumbs --name API src/index.ts",
     "docs:concat": "concat-md --hide-anchor-links docs > README.md",
-    "clean": "yarn run clean:build && yarn run clean:docs",
+    "clean": "yarn run clean:build && yarn run clean:docs && yarn run clean:coverage",
     "clean:build": "rimraf build",
     "clean:docs": "rimraf docs",
+    "clean:coverage": "rimraf coverage",
     "test": "yarn run test:typescript && yarn run test:eslint && yarn run test:jest",
     "test:typescript": "tsc --noEmit",
     "test:eslint": "eslint .",
-    "test:jest": "jest ."
+    "test:jest": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --no-cache"
   },
   "dependencies": {},
   "devDependencies": {

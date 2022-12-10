@@ -25,11 +25,10 @@
     "clean": "yarn run clean:build && yarn run clean:docs",
     "clean:build": "rimraf build",
     "clean:docs": "rimraf docs",
-    "test": "yarn run test:typescript && yarn run test:eslint && yarn run test:jest && yarn run test:ncu",
+    "test": "yarn run test:typescript && yarn run test:eslint && yarn run test:jest",
     "test:typescript": "tsc --noEmit",
     "test:eslint": "eslint .",
-    "test:jest": "jest .",
-    "test:ncu": "ncu --errorLevel 2"
+    "test:jest": "jest ."
   },
   "dependencies": {},
   "devDependencies": {
@@ -43,7 +42,6 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "jest": "^29.3.1",
-    "npm-check-updates": "^16.5.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3",
     "typedoc": "^0.23.21",

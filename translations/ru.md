@@ -23,6 +23,8 @@ interface Proxy {
 }
 ```
 
+TypeDoc документация доступна на [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki)
+
 ## Установка
 
 ```bash

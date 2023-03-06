@@ -23,12 +23,20 @@ interface Proxy {
 }
 ```
 
-TypeDoc documentation is available on [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki)
+TypeDoc documentation is available on [wiki](https://github.com/vladislav-puzyrev/proxy-string-parser/wiki).
 
 ## Install
 
+Using npm:
+
 ```bash
 npm install proxy-string-parser
+```
+
+Using yarn:
+
+```bash
+yarn add proxy-string-parser
 ```
 
 ## Usage

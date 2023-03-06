@@ -1,4 +1,4 @@
-import proxyParser from './proxyParser.js'
+import proxyParser from './index.js'
 
 describe('proxyParser', () => {
   test('full string', () => {

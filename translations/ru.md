@@ -27,23 +27,15 @@ TypeDoc документация доступна на [wiki](https://github.com
 
 ## Установка
 
-Используя npm:
-
 ```bash
 npm install proxy-string-parser
-```
-
-Используя yarn:
-
-```bash
-yarn add proxy-string-parser
 ```
 
 ## Использование
 
 ```javascript
-import proxyParser from 'proxy-string-parser'
+import proxyStringParser from 'proxy-string-parser'
 
-const proxy = proxyParser('protocol://username:password@host:80')
+const proxy = proxyStringParser('protocol://username:password@host:80')
 console.log(proxy)
 ```

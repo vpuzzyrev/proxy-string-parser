@@ -1,9 +1,9 @@
-import proxyParser from './index.js'
+import proxyStringParser from './index.js'
 
-describe('proxyParser', () => {
+describe('proxyStringParser', () => {
   test('full string', () => {
     const string = 'protocol://username:password@host:80'
-    const proxy = proxyParser(string)
+    const proxy = proxyStringParser(string)
 
     expect(proxy).toStrictEqual({
       host: 'host',
@@ -18,7 +18,7 @@ describe('proxyParser', () => {
 
   test('without auth', () => {
     const string = 'protocol://host:80'
-    const proxy = proxyParser(string)
+    const proxy = proxyStringParser(string)
 
     expect(proxy).toStrictEqual({
       host: 'host',
@@ -29,7 +29,7 @@ describe('proxyParser', () => {
 
   test('without protocol', () => {
     const string = 'username:password@host:80'
-    const proxy = proxyParser(string)
+    const proxy = proxyStringParser(string)
 
     expect(proxy).toStrictEqual({
       host: 'host',
@@ -43,7 +43,7 @@ describe('proxyParser', () => {
 
   test('minimal string', () => {
     const string = 'host:80'
-    const proxy = proxyParser(string)
+    const proxy = proxyStringParser(string)
 
     expect(proxy).toStrictEqual({
       host: 'host',

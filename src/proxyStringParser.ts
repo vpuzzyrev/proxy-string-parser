@@ -1,6 +1,6 @@
 import { type Proxy } from './types/Proxy.js'
 
-const proxyParser = (proxy: string): Proxy => {
+function proxyStringParser (proxy: string): Proxy {
   const protocolSplit = proxy.split('://')
   const protocol = (protocolSplit.length === 1) ? null : protocolSplit[0]
   const rest = (protocolSplit.length === 1) ? protocolSplit[0] : protocolSplit[1]
@@ -43,4 +43,4 @@ const proxyParser = (proxy: string): Proxy => {
   return proxyConfig
 }
 
-export default proxyParser
+export default proxyStringParser

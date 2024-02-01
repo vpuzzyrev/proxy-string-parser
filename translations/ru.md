@@ -1,5 +1,21 @@
 # proxy-string-parser
 
+## Осуждаемо
+
+Вместо этого используйте нативные URL объекты: https://developer.mozilla.org/ru/docs/Web/API/URL.
+
+Пример:
+
+```typescript
+const url1 = new URL('https://username:password@localhost:3000')
+const url2 = new URL('https://localhost:3000')
+
+console.log(url1.protocol, url1.username, url1.password, url1.hostname, url1.port)
+console.log(url2.protocol, url2.hostname, url2.port)
+```
+
+## Введение
+
 Парсинг строк следующих форматов:
 
 ```text
